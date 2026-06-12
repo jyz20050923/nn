@@ -1,0 +1,25 @@
+site_name: 多模态 CARLA 导航避障系统
+site_description: 基于 CARLA 模拟器的智能车辆导航避障系统
+site_author: CARLA Navigator Team
+
+nav:
+  - 首页: index.md
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+
+extra:
+  version: 1.2
